@@ -1,7 +1,6 @@
-﻿using System;
-using System.IO;
-using ClosedXML.Excel;
+﻿using ClosedXML.Excel;
 
+Console.WriteLine("Эта программа создает эксель файл на рабочем столе содержащий таблицу истинности заданного размера.");
 Console.Write("Введите число элементов: ");
 if (!int.TryParse(Console.ReadLine(), out int numberOfElements) || numberOfElements < 1)
 {
